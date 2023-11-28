@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-blend-mode: multiply;
+    background-color: rgb(1, 1, 54);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgba(255, 255, 0, 0.164);
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    color: black;
+    /* Adjusted text color for better visibility */
+}
+
+.add {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.content {
+    background-color: whitesmoke;
+    margin: 100px auto;
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.T1 {
+    font-size: larger;
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed blue;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.del {
+    cursor: pointer;
+    color: whitesmoke;
+}
